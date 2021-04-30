@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,88 @@
     <link rel="stylesheet" href="style.css">
     <title>Gabriel Victoria</title>
 </head>
+
 <body>
     <div class="container">
         <header>
+            <img class="logo" src="images/favicon-32x32.png" alt="logo">
+            <nav class="nav_links">
+
+                <ul>
+                    <li><a href="#" class="active">About Me</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <!--====================Fim da barra de navegação topo da página===============================-->
+        <section>
             <div class="img-wrapper">
                 <img src="images/bg.jpg" alt="Imagem de fundo">
             </div>
             <div class="banner">
                 <h1>Gabriel Victoria</h1>
                 <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
-                <a href="https://drive.google.com/file/d/1nmx5GOyCgpxOJe3EN7VOee6rsFwdWxFm/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1nmx5GOyCgpxOJe3EN7VOee6rsFwdWxFm/view?usp=sharing"
+                    target="_blank">
                     <button>Meu Currículo</button>
-                </a>                         
+                </a>
             </div>
-        </header>
+            <!--=======================Banner de entrada com informações e link do curriculo==================-->
+        </section>
+        <section class="section_projetos">
+            <div class="section_header">
+                <h2 id="projetos">Projetos</h2>
+            </div>
+
+            <div class="projetos">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="images/projeto1.jpg" alt="Projeto 1">
+                    </div>
+                    <div class="card_content">
+                        <h2>Projeto 1</h2>
+                        <h3>HTML, CSS e JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, cum recusandae. Animi neque
+                            sapiente eum? Accusantium veritatis a odio ad.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="images/projeto2.jpg" alt="Projeto 2">
+                    </div>
+                    <div class="card_content">
+                        <h2>Projeto 2</h2>
+                        <h3>HTML e CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, cum recusandae. Animi neque
+                            sapiente eum? Accusantium veritatis a odio ad.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="images/projeto3.jpg" alt="Projeto 3">
+                    </div>
+                    <div class="card_content">
+                        <h2>Projeto 3</h2>
+                        <h3>HTML e CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, cum recusandae. Animi neque
+                            sapiente eum? Accusantium veritatis a odio ad.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+            <!--======================Fim da sessão com cards dos projetos=====================-->
+            <footer>
+                <div class="footer_infos">
+
+                </div>
+            </footer>
+        </section>
+
+
     </div>
 </body>
+
 </html>
